@@ -75,7 +75,7 @@ jobs:
     needs: [python, node, java, php]
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Tous les tests sont passés : build en cours"
+      - run: echo "Tous les tests sont passés, build en cours"
 
   deploy:
     needs: build
